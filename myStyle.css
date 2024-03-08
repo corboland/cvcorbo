@@ -22,7 +22,6 @@ ul{
 .exp{
 	background: green;
 }
-
 @keyframes example {
   from {background-color: green;}
   to {background-color: orange;}
