@@ -1,10 +1,46 @@
 body{
-	background-color:light blue;
 	font-family: Calibri;
 	text-align: center;
+	background: grey;
 }
 ul{
 	list-style-type: none;
 	padding: 0;
 }
+.header{
+	background: green;
+	font-size: 100px;
+}
+.contents{
+	position: left-side;
+	background: white;
+	font-size: 15px;
+}
+.Edu{
+	background: orange;
+}
+.exp{
+	background: green;
+}
 
+@keyframes example {
+  from {background-color: green;}
+  to {background-color: orange;}
+}
+@keyframes example {
+  0%   {background-color:green; left:0px; top:0px;}
+  25%  {background-color:white; left:300px; top:0px;}
+  50%  {background-color:orange; left:300px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:white; left:0px; top:0px;}
+  100% {background-color:orange; left:0px; top:0px;}
+}
+div {
+  width: 1500px;
+  height: 150px;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 4s;
+  position: relative;
+  margin: auto;
+}
